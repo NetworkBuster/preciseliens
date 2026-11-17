@@ -1,5 +1,9 @@
 # What are Opera GX Mods?
 
+## NetworkBuster OS package
+
+The repository includes the latest [NetworkBuster OS portable browser package](networkbuster-os/networkbuster-os.zip), NetBot context, SHA-256 manifest, available-file inventory, and [historical build notes](networkbuster-os/HISTORY.md). This is a browser workspace, not a bootable ISO; physical-drive flashing remains an explicit local operation.
+
 ![GXMods](images/gxmods.png)
 
 GX Mods are a collection of customizations that allow users to create unique browsing experiences within Opera GX. With GX Mods, users can modify the browser's appearance, sounds, music, theme, wallpaper and even web content using web modding and shaders.

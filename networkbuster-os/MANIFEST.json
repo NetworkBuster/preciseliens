@@ -1,0 +1,256 @@
+﻿{
+    "build":  "networkbuster-os",
+    "version":  "1.0.0",
+    "type":  "portable-browser-os",
+    "bootable":  false,
+    "createdUtc":  "2026-11-17T19:54:07.3806571Z",
+    "source":  "LunaRecycle main deployment plus imported public web programs",
+    "fileCount":  49,
+    "files":  [
+                  {
+                      "path":  "AVAILABLE-FILES.json",
+                      "bytes":  9178,
+                      "sha256":  "6c612191d1282f138520ad5c2a43e8078ed71fc0db0c97d0d0fb960396c79d37"
+                  },
+                  {
+                      "path":  "build.ps1",
+                      "bytes":  1777,
+                      "sha256":  "fb20206f2fab94868db344a807c5927c58f2c3100acfc91b4a64c3f19c350ed3"
+                  },
+                  {
+                      "path":  "launch.ps1",
+                      "bytes":  1094,
+                      "sha256":  "e17bc5019b653f04de60e462b4bc46f4ce056bc18123bb0a85bdff26ed526043"
+                  },
+                  {
+                      "path":  "payload/web/.gitattributes",
+                      "bytes":  68,
+                      "sha256":  "d8fb0de4792538f93822b2c0d235604921299d5e54a3d6ec7a6cb34536e8bf1e"
+                  },
+                  {
+                      "path":  "payload/web/documentation.html",
+                      "bytes":  4467,
+                      "sha256":  "2d696de39d7b3d3674ea0b58f18ed6cf79c81d99efa3025367f99602f4140cf3"
+                  },
+                  {
+                      "path":  "payload/web/html-fetch-tool/fetch-html.ps1",
+                      "bytes":  2836,
+                      "sha256":  "b18d85abd79fe86d15e6d7b305a54075924f46e4129192a141370ed28276a59e"
+                  },
+                  {
+                      "path":  "payload/web/html-fetch-tool/index.html",
+                      "bytes":  34718,
+                      "sha256":  "9a2548baaff6f0f7128a76d8f7bb2840c9e47c9f22bc1f2a067e2a56b8b61a99"
+                  },
+                  {
+                      "path":  "payload/web/html-fetch-tool/index.template.html",
+                      "bytes":  34718,
+                      "sha256":  "9a2548baaff6f0f7128a76d8f7bb2840c9e47c9f22bc1f2a067e2a56b8b61a99"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/.gitignore",
+                      "bytes":  8,
+                      "sha256":  "56537ebe03160a28fdb6e59ae18f408d6f8aba609df73c45917c9358fd3bad52"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/about.html",
+                      "bytes":  2106,
+                      "sha256":  "b31a5be67634d68e67161d2759fe463a89a1edbea146825aee114df0374925af"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/audio-bridge.js",
+                      "bytes":  2676,
+                      "sha256":  "61fa19198a5d5505e5b96ba3cfc07dbbd40237112c1a13bf8294f53dfcf5e6e0"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/chatbot.css",
+                      "bytes":  6080,
+                      "sha256":  "9f499825e7f521d84783bed5b0f8dcea0dd5af5d21abde5f4d47cdd00ef028bd"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/chatbot.js",
+                      "bytes":  20018,
+                      "sha256":  "0e0dc750536c5b9f7e68a47c348c6973a264703e6457d3c62b2ad68f10902f3d"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/contact.html",
+                      "bytes":  2588,
+                      "sha256":  "b71e934f9336f001276e480af23855e7643a1ab6a34e0f16c6637df8b280b849"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/dashboard-control.html",
+                      "bytes":  23090,
+                      "sha256":  "61f6ce3c2ef3f47010d2b04b4eee39d95d20228044bb7c890711eca2ef09a2ae"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/documentation.html",
+                      "bytes":  2572,
+                      "sha256":  "cbfa13ec9b0de0ea6ecd5cb3a26e37a4e744331638fbe98464e9f792c1873ea0"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/flash-commands.html",
+                      "bytes":  14668,
+                      "sha256":  "021c3c5b9957ec5406ad6d5b2f53c125676a2730c0fe1e084f20e54eb1b45571"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/hud.html",
+                      "bytes":  14624,
+                      "sha256":  "8bf6a680fa01527ceba066bfb3c4eab5ed27bcf67faf4e1e4bd0e84ede0dfff5"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/index.html",
+                      "bytes":  24244,
+                      "sha256":  "455d792293597674d126e5592b45885dc821d2dcdb985e605e1f32edd443f87f"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/navigation.js",
+                      "bytes":  5924,
+                      "sha256":  "452245f922d50f51d063d65a5891b948da866908fdb9bf81e8b951df74b67493"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/overlay.html",
+                      "bytes":  8420,
+                      "sha256":  "462c1cba81d3f95a2af64523032c9488179e60acd3e8a0b3ae404cf7f17952e4"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/packages.html",
+                      "bytes":  9984,
+                      "sha256":  "5e521e1e76d2edb04aa99e87ee7120ccb453d8eb0028d925c17a4b43eef2ec42"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/projects.html",
+                      "bytes":  2764,
+                      "sha256":  "b974a00d5a1191fd4d273b1e9787eb1100d83c951995c0a7e9151dcee2f4986b"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/recycle.html",
+                      "bytes":  821,
+                      "sha256":  "7355ed0baac136ddbcfa93e26eb89db55d361dbc8baa96881f34ea2f38c3dbec"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/recycle.js",
+                      "bytes":  1910,
+                      "sha256":  "c36d12abee57e2d419c0301cb7ca539191843fc8cdf2b0b3754674277b8c0d6b"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/script.js",
+                      "bytes":  12059,
+                      "sha256":  "8502299b49978d5329619729ce9379320a0770c4db59178378fceaa8bc1611fc"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/styles.css",
+                      "bytes":  17704,
+                      "sha256":  "f1c67bcca654135a051755ef2dae6753ed6cee4aae70d70c2669fa4d9784b80f"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/technology.html",
+                      "bytes":  3065,
+                      "sha256":  "de231b43ee1a69f79b27cd42c46fb88e16ff2734678516d4c60a4a33e0f09884"
+                  },
+                  {
+                      "path":  "payload/web/imported-programs/wifi7-mesh-overlay.html",
+                      "bytes":  22712,
+                      "sha256":  "65f361ddaa601be14ad92119fb5daf5b8c34ca4cf66dbb561377c4187f543dcf"
+                  },
+                  {
+                      "path":  "payload/web/index.html",
+                      "bytes":  5005,
+                      "sha256":  "e0098764ff111bd47dbdbaa01978512bab19aabb1f0691dfafac40a7ffe51169"
+                  },
+                  {
+                      "path":  "payload/web/launch.html",
+                      "bytes":  6766,
+                      "sha256":  "4872a8381df1f23f3af8c0e5b853ff6b0a58fae69a53cc8d403836bbdefd075c"
+                  },
+                  {
+                      "path":  "payload/web/netbot-context.json",
+                      "bytes":  8466,
+                      "sha256":  "28e8b4edfa299e42298ec6e0e4294666c6c4bde50c25b27a6f833fdb8d996437"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/app.js",
+                      "bytes":  157452,
+                      "sha256":  "c15d6db1cce9eeb0f24bea318f42f7a9abf3bd50e7e51f1e2ac8ec47501e7814"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/COMPLETION-REPORT.md",
+                      "bytes":  11930,
+                      "sha256":  "d5adc5a950612d68a0bc570619a16ba65d9d1f5f01ff0dd5ea8d74df70584d85"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/FILE-MANIFEST.md",
+                      "bytes":  10718,
+                      "sha256":  "13dc9037988f2462cd2de9f22e6035b4bb2176ba3c9acd7be4e3b228002e164a"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/gpu-satellite-examples.js",
+                      "bytes":  16140,
+                      "sha256":  "40db86429f971980be9351d11674c9fa6b0d827ee80e38ed8831771b8f16b26d"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/GPU-SATELLITE-IMPLEMENTATION.md",
+                      "bytes":  10006,
+                      "sha256":  "a28431d095ea1d371462c450f88ee548bf2bb2610b0ef9eaa2373121129f5783"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/gpu-satellite-module.js",
+                      "bytes":  17703,
+                      "sha256":  "6462d5f70453129f9e8017e8082ec1bcd767020c42fb402c97af6ceb6e0bdc3f"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/GPU-SATELLITE-QUICK-REF.md",
+                      "bytes":  7354,
+                      "sha256":  "36611c88dd68f5ecf67e9c4a7cb0e8368f57dbd059044287cb89b145f8941f94"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/GPU-SATELLITE-README.md",
+                      "bytes":  11285,
+                      "sha256":  "6b01393dee2be7153b455a9039351315ff24a22c39508da15e8e563e3e0f2a01"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/gpu-satellite-tests.js",
+                      "bytes":  12934,
+                      "sha256":  "03515f2ed2ead8cee6238355b3dde39cf35c708bd56c54c8faad6ad724982da1"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/history.html",
+                      "bytes":  3360,
+                      "sha256":  "f2966138a51d2ac1779405b3408c3e8da6e03bbb5fcb330830d420824e446f10"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/index.css",
+                      "bytes":  14246,
+                      "sha256":  "1a30f4c9005861593de2bd60f9179151c530bb9665fdb79ad5c74841f567b641"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/index.html",
+                      "bytes":  12489,
+                      "sha256":  "ed0eeb6612d7647fa9c1cd9f8ba0ed54e4e859079fa6768504d20e3a832cad4b"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/INDEX.md",
+                      "bytes":  12638,
+                      "sha256":  "d29a12dc0838898afd08e327e5a3e2152a3b7fd658bcabbc109510a5c3e4a70b"
+                  },
+                  {
+                      "path":  "payload/web/networkbuster/modals.css",
+                      "bytes":  32919,
+                      "sha256":  "cb173544aef920bbe0cc30546902a6d03577a7791113bc4f3a1d06003a035d45"
+                  },
+                  {
+                      "path":  "README.md",
+                      "bytes":  1586,
+                      "sha256":  "0c2b6b17b3976e42b31bfa98bb67d277ed97cd838c3d63e60c27b6058c801725"
+                  },
+                  {
+                      "path":  "tools/server.mjs",
+                      "bytes":  1575,
+                      "sha256":  "e2519005ac31cba3069620bbc00f0713ddc0b9788b7b3eb9c6d24174f8582aed"
+                  },
+                  {
+                      "path":  "UPSTREAM-README.md",
+                      "bytes":  10381,
+                      "sha256":  "7af864f74cf01a55f2409762559cbd72019aec46fe9a017242f42c65a97eba78"
+                  }
+              ]
+}
